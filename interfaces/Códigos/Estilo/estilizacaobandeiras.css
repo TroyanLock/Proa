@@ -1,0 +1,132 @@
+body{
+    background: rgb(186,240,181);
+    background: linear-gradient(180deg, rgba(186,240,181,1) 0%, rgba(62,119,110,1) 100%);    text-align: center;
+    font-size: 1em;
+    font-family: 'Andada Pro', serif;
+}
+.cabecalho{
+    width: 100%;
+    background: rgb(255,255,255);
+    background: linear-gradient(131deg, rgba(255,255,255,1) 6%, rgba(14,201,231,0.9026961126247374) 21%, rgba(201,30,30,0.8018557764902836) 57%);
+}
+.menu{
+    width: 100%;
+    background-color: #423835;
+    float: left;
+}
+.menu li{
+float: left;
+padding: 5px 2%;
+list-style: none;
+}
+.menu a{
+    color: #a1a4a3;
+    font-weight: 24px;
+    font-size: 1em;
+}
+    #Titulo {
+    font-weight: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+}
+    .Cidades{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 37px;
+    font-size: 1.5em;
+
+}
+#saocaetano {
+    margin: 100px 20% 50px 20%;
+}
+#aguasdesaopedro {
+    margin: 100px 36%;
+}
+#santos {
+    margin: 100px 36%;
+}
+#jundiai {
+    margin: 100px 36%;
+}
+#valinhos {
+    margin: 100px 36%;
+}
+#vinhedo {
+    margin: 100px 36%;
+}
+#santoandre {
+    margin: 100px 36%;
+}
+#araraquara {
+    margin: 100px 36%;
+}
+#santanadeparnaiba {
+    margin: 100px 36%;
+}
+#ilhasolteira {
+    margin: 100px 36%;
+}
+#aguasdesaopedro {
+    margin: 100px 36%;
+}
+#aguasdesaopedro {
+    margin: 100px 36%;
+}
+.fotos{
+    width: 450px;
+    height: 400px;
+    margin: 1px 35%;
+    display: block;
+}
+
+.linkhinos {
+    font-size: 1.1em;
+    cursor: pointer;
+    float: right;
+    margin: 10px 30px 10%;
+    border: solid 3px black;
+    background-color: initial;
+    color: initial;
+    border-radius: 4px;
+    transition: 250ms;
+}
+.linkhinos:hover{
+    font-size: 1.2em;
+    transition: 500ms;
+}
+.inicio{
+font-size: 1.1em;
+cursor: pointer;
+float: left;
+margin: 10px 30px 10%;
+border: solid 3px black;
+background-color: initial;
+color: initial;
+border-radius: 4px;
+transition: 250ms;
+}
+
+.inicio:hover{
+    color: rgb(13, 97, 97);
+    font-size: 1.2em;
+    transition: 250ms;
+}
+.estrofes{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2em;
+    font-style: italic;
+    border: solid black 2px;
+    border-radius: 15px;
+    text-align: center;
+    color: coral;
+
+}
+.paginadacidade{
+    text-align: center;
+}
+.rodape{
+    margin-top: 170px;
+}
+.rodape p{
+    margin: 5px 15px;
+}
