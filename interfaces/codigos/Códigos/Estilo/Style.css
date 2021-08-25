@@ -1,0 +1,46 @@
+body{
+    background-color: rgba(200, 207, 138, 0.904);
+}
+#paragrafo01{
+    font-size: 1.5em;
+}
+#paragrafo02{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+    font-weight: 300;
+}
+span{
+    background-color: rgba(160, 199, 98, 0.521);
+}
+.format{
+    background-color: darkkhaki;
+    color: darkorange;
+    font-size: 23;
+    text-align: justify;
+}
+abbr:hover{
+    background-color: darkslategrey;
+}
+#paragrafo06{
+    border: 2px solid rgb(255, 255, 0);
+}
+.Link01:link{
+color:black;
+background-color:red;
+text-decoration: none;
+}
+ .Link01:visited{
+color: green;
+background-color:purple;
+text-decoration:none;
+ }
+.link01:hover{
+ color:yellow;
+ background-color: grey;
+text-decoration:underline;
+}
+ .link01:active{
+color: brown;
+background-color: black;
+text-decoration:underline;
+}
