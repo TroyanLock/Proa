@@ -1,0 +1,567 @@
+/* reset */
+*{
+    margin: 0%;
+    padding: 0%;
+    font-size: 100%;
+    font-weight: normal;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    box-sizing: border-box;
+}
+img{
+    max-width: 100%;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+h2{
+    font-size: 1.5em;
+    color: black;
+}
+p{
+    font-size: 1em;
+    color: #777;
+}
+/* PAGINA - INDEX */
+/* cabeçalho */
+    .cabecalho{
+width: 100%;
+height: 9em;
+background: rgb(215,57,44);
+background: linear-gradient(0deg, rgba(215,57,44,1) 0%, rgba(149,24,20,1) 74%);}
+.logo{
+    font-size: 0px;
+    background-image: url(../imagens/Resized.png);
+    width: 80px;
+    height: 80px;
+    float: left;
+    margin: 30px 40px;
+    cursor: pointer;
+}
+.citacao{
+    font-family: 'PT Serif', serif;    font-size: 1.4em;
+    float: right;
+    margin: 15px;
+    padding: 15px;
+    color: orange;
+}
+/* menu */
+.menu{
+    width:100%;
+    float: left;
+    background-color: #271F1D;
+    padding: 30px 8%;
+}
+.menu li{
+    float: right;
+list-style: none;
+margin: 0px 15px;
+}
+.menu a{
+    color: #9d9d9d;
+background-color: #271F1D;
+transition: 1.5s;
+}
+.menu a:hover{
+    color: #fff;
+    font-size: 1.3em;
+}
+/* Social icons */
+.social-icons{
+    float:left ;
+}
+.social-icons a{
+    color: #fff;
+    float: left;
+    margin-left: 22px;
+}
+.social-icons .fa-facebook:hover{
+    color:#3b5998
+}
+.social-icons .fa-instagram:hover{
+    background-image:linear-gradient(90deg, rgba(64,93,230,1) 6%, rgba(131,58,180,1) 57%, rgba(0,212,255,1) 100%);
+}
+.social-icons .fa-twitter:hover{
+    color:#00Acee
+}
+.social-icons .fa-envelope:hover{
+    background-image: linear-gradient(to bottom #fff #000);
+}
+.social-icons .fa-google:hover{
+color: red;
+}
+.social-icons .fa-youtube:hover{
+    color:#ff0000
+}.social-icons .fa-linkedin:hover{
+    color:#2867B2;
+}
+/* Bem vindo */
+.bemvindo{
+    padding: 20px;
+    background: rgb(82,69,55);
+    background: linear-gradient(0deg, rgba(82,69,55,1) 33%, rgba(82,69,55,0.9531162806919643) 66%, rgba(82,69,55,0.9251050762101716) 99%);    max-width: 100%;
+    max-height: 100%;
+}
+.bemvindo h2{
+    text-align: center;
+    font-family: 'Vollkorn', serif;
+    font-size: 2.3em;
+}
+.bemvindo h3{
+    text-align: center;
+    font-size: 2em;
+    color: orangered;
+}
+.bemvindo p{
+ text-align: center;
+color: orange;
+padding-top: 7px;
+}
+/* Artigo */
+.sobre{
+    background: rgb(82,69,55);
+    background: linear-gradient(180deg, rgba(82,69,55,1) 33%, rgba(82,69,55,0.9531162806919643) 66%, rgba(82,69,55,0.9251050762101716) 99%);}
+    .sobre h2{
+    font-family: 'STIX Two Text', serif;
+    font-size: 1.8em;
+    color: black;
+    margin: 0px 0px 20px 15px;
+    padding-top: 10px;
+}
+.sobre h3{
+    font-family: 'STIX Two Text', serif;
+    font-size: 1.5em;
+    color: black;
+    margin: 15px 0px 30px 15px;
+}
+.sobre p{
+text-align: justify;
+font-size: 1.3em;
+color: white;
+padding : 15px ;
+}
+/* seção 2 */
+.sugestoes{
+    width: 100%;
+    float: left;
+    background-color:black;
+    padding: 50px 8%;
+}
+.sugestoes h3{
+    font-size: 1.8em;
+    color: white;
+    background-color: black;
+}
+.sugestoes p{
+    font-size: 1.2em;
+    background-color: black;
+    color: white;
+    padding: 0px 0px 3px 0px;
+}
+.sugestoes form{
+    width:100%;
+    float: left;
+    margin-top: 10px;
+}
+.sugestoes input{
+    width:40%;
+    margin-right: 1%;
+    padding: 15px 10px;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    color: white;
+    background-color: black;
+}
+.sugestoes input::placeholder{
+    color: orange;
+}
+.sugestoes button{
+    width: 17%;
+    color: white;
+    background-color: orange;
+    padding: 15px 13px;
+    border-radius: 10px;
+    float: right;
+    cursor: pointer;
+}
+/* rodapé */
+.rodape{
+    background-color: darkslategray;
+    font-size: 0.8em;
+    text-align: center;
+}
+.rodape p{
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.rodape address{
+    font-family: cursive;
+    font-size: 0.7;
+    color: orange;
+}
+
+/* PAGINA RECEITA */
+
+.indice{
+    background-color: #000;
+    width: 100%;
+    height: 2em;
+    list-style: outside;
+    float:left;
+    padding: 8px 40px;
+}
+.indice li{
+    float: left;
+    padding: 2px 10%;
+    list-style: none;
+    
+}
+.indice a{
+    color: white;
+    transition: 500ms;
+}
+.indice a:hover{
+    opacity: 70%;
+}
+.cardapio{
+    background: rgb(189,31,34);
+    background: linear-gradient(90deg, rgba(189,31,34,1) 0%, rgba(12,2,2,1) 25%, rgba(0,0,0,1) 50%, rgba(22,4,4,1) 75%, rgba(189,31,34,1) 100%);}
+
+.cardapio img{
+width: 30%;
+height: 300px;
+margin: 2px 35%;
+transition: 3s;
+}
+.cardapio img:hover{
+width: 35%;
+height: 350px;
+margin: 2px 35%;
+opacity: 90;
+transition: 3s;
+}
+.cardapio h3{
+font-size: 2em;
+margin: 0px 45% 0px 40%;
+text-align: center;
+color: white;
+}
+.cardapio p{
+font-size: 1em;
+margin: 0.3% 43% 0.3%;
+color: orange;
+}
+
+.cardapio hr{
+    height: 30px;
+}
+/* Continuação */
+.breve{
+    font-size: 60px;
+    float: left;
+    margin: 200px 37%;
+    text-align: center;
+
+}
+
+/* RESPONSIVIDADE */
+@media screen and (max-width:1100px){
+    .cabecalho{
+        width: 100%;
+        height: 9em;
+        background: rgb(215,57,44);
+        background: linear-gradient(0deg, rgba(215,57,44,1) 0%, rgba(149,24,20,1) 74%);
+    }        
+    .logo{
+        font-size: 0px;
+        background-image: url(../imagens/Evolve-70x70.png);
+        width: 70px;
+        height: 70px;
+        float: left;
+        margin: 15px 20px;
+        cursor: pointer;
+    }
+    .citacao{
+        font-family: 'PT Serif', serif;    
+        font-size: 1.4em;
+        text-align: center;
+        float: right;   
+        padding: 0px 4px 0px 15px;
+        margin-bottom: 0px;
+        color: orange;
+    }
+
+}
+@media screen and (max-width: 992px){
+    .cabecalho{
+        width: 100%;
+        height: 10em;
+        background: rgb(215,57,44);
+        background: linear-gradient(0deg, rgba(215,57,44,1) 0%, rgba(149,24,20,1) 74%);
+    }        
+    .logo{
+        font-size: 0px;
+        background-image: url(../imagens/Evolve-70x70.png);
+        width: 70px;
+        height: 70px;
+        float: left;
+        margin: 15px 20px;
+        cursor: pointer;
+    }
+    .citacao{
+        font-family: 'PT Serif', serif;    
+        font-size: 1.4em;
+        text-align: center;
+        float: right;   
+        padding: 0px 4px 0px 15px;
+        margin-bottom: 0px;
+        color: orange;
+    }
+
+}
+@media screen and (max-width: 974px){
+    .menu{
+        width:100%;
+        float: right;
+        background-color: #271F1D;
+        padding: 30px 40px 30px 40px;
+    }
+    .menu li{
+    float: right;
+    list-style: none;
+    font-size: 17px;
+    margin: 1% 10%;
+    }
+    .menu a{
+        color: #9d9d9d;
+    background-color: #271F1D;
+    }
+    .menu a:hover{
+        color: #fff;
+        font-size: 17px;
+        text-decoration: underline;
+    }
+    .social-icons{
+        float:left;
+        width: 100%;
+        font-size: 1em;
+
+    }
+    .social-icons a{
+        color: #fff;
+        float: left;
+        margin-left: 22px;
+    }
+}
+
+@media  screen and (max-width: 932px){
+    .cabecalho{
+        width: 100%;
+        height: 10em;
+        background: rgb(215,57,44);
+        background: linear-gradient(0deg, rgba(215,57,44,1) 0%, rgba(149,24,20,1) 74%);
+    }        
+    .logo{
+        font-size: 0px;
+        background-image: url(../imagens/Resized.png);
+        width: 80px;
+        height: 80px;
+        float: left;
+        margin: 3px 45%;
+        cursor: pointer;
+    }
+    .citacao{
+        font-family: 'PT Serif', serif;    
+        font-size: 1.6em;
+        float: right;   
+        padding: 0px 4px 0px 15px;
+        color: orange;
+    }
+ 
+}
+@media screen and (max-width: 742px){
+    .menu{
+        width:100%;
+        float: right;
+        background-color: #271F1D;
+        padding: 40px 55px 40px 55px;
+    }
+    .menu li{
+    float: right;
+    list-style: none;
+    font-size: 17px;
+    margin: 3% 5%;
+    }
+    .menu a{
+        color: #9d9d9d;
+    background-color: #271F1D;
+    }
+    .menu a:hover{
+        color: #fff;
+        font-size: 17px;
+        text-decoration: underline;
+    }
+    .social-icons{
+        float:left;
+        width: 100%;
+        margin: 1%;
+        
+        font-size: 1em;
+
+    }
+    .social-icons a{
+        color: #fff;
+        float: left;
+        margin-left: 22px;
+    }
+
+}
+
+@media screen  and (max-width: 502px){
+    .cabecalho{
+        width: 100%;
+        height: 12.5em;
+        padding-top: 4px;
+        background: rgb(215,57,44);
+        background: linear-gradient(0deg, rgba(215,57,44,1) 0%, rgba(149,24,20,1) 74%);
+    }  
+    .menu{
+        width:100%;
+        float: left;
+        background-color: #271F1D;
+        padding: 20px 40px;
+    }
+    .menu li{
+    float: right;
+    list-style: none;
+    font-size: 17px;
+    margin: 3% 5%;
+    text-decoration: underline;
+    }
+    .menu a{
+        color: #9d9d9d;
+    background-color: #271F1D;
+    }
+    .menu a:hover{
+        color: #fff;
+        font-size: 17px;
+        text-decoration: underline;
+    }
+    .social-icons{
+        float:left;
+        width: 100%;
+        margin: 1%;
+        
+        font-size: 1em;
+
+    }
+    .social-icons a{
+        color: #fff;
+        float: left;
+        margin-left: 22px;
+    }
+    .sugestoes{
+        width: 100%;
+        float: left;
+        background-color:black;
+        padding: 50px 8%;
+    }
+    .sugestoes h3{
+        font-size: 1.8em;
+        color: white;
+        background-color: black;
+    }
+    .sugestoes p{
+        font-size: 1.2em;
+        background-color: black;
+        color: white;
+        padding: 0px 0px 3px 0px;
+    }
+    .sugestoes form{
+        width:100%;
+        float: left;
+        margin-top: 10px;
+    }
+    .sugestoes input{
+        width:48%;
+        margin-right: 1%;
+        padding: 15px 7px;
+        border: 1px solid #fff;
+        border-radius: 10px;
+        color: white;
+        background-color: black;
+    }
+    .sugestoes input::placeholder{
+        color: orange;
+    }
+    .sugestoes button{
+        width: 80px;
+        color: white;
+        background-color: orange;
+        padding: 15px 17px;
+        margin: 5px;
+        border-radius: 10px;
+        float: right;
+        cursor: pointer;
+    } 
+}
+@media screen and (max-width:369px){
+    .cabecalho{
+        width: 100%;
+        height: 13.7em;
+        padding-top: 4px;
+        background: rgb(215,57,44);
+        background: linear-gradient(0deg, rgba(215,57,44,1) 0%, rgba(149,24,20,1) 74%);
+    }   
+    .logo{
+        font-size: 0px;
+        background-image: url(../imagens/Resized.png);
+        width: 80px;
+        height: 80px;
+        float: left;
+        margin: 1px 40%;
+        cursor: pointer;
+    }
+    .menu{
+        width:100%;
+        float: left;
+        background-color: #271F1D;
+        padding: 10px 20px;
+    }
+    .menu li{
+    float: left;
+    text-align: left;
+    list-style: none;
+    font-size: 20px;
+    margin: 3% 15%;
+    text-decoration: underline;
+    }
+    .menu a{
+    color: #9d9d9d;
+    background-color: #271F1D;
+    }
+    .menu a:hover{
+        color: #fff;
+        font-size: 17px;
+        text-decoration: underline;
+    }
+    .social-icons{
+        float:left;
+        width: 100%;
+        margin: 5%;
+        
+        font-size: 1em;
+
+    }
+    .social-icons a{
+        color: #fff;
+        float: left;
+        margin-left: 22px;
+    }
+
+}
