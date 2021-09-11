@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <meta name="author" content="Vinicius Rodrigues">
+    <meta name="description" content="Calculadora deslizante que informa qual é
+    seu imc, e em qual classificação você se encontra">
+    <meta name="keywords" content="IMC, saúde, qualidade de vida, teste rápido">
+    <link rel="stylesheet" href="estilo/style.css">
+
+
+
+    <title>Calculadora de índice de massa corporal</title>
+</head>
+<body>
+
+<div class="container">
+<div class="row">
+    <input type="range" min="20" max="200" value="20" id="weight" oninput="calculate()"><span id="weight-val">20 kg</span>
+</div>
+<div class="row">
+    <input type="range" min="100" max="250" value="100" id="height" oninput="calculate()"><span id="height-val">100 cm</span>
+
+</div>
+<p id="result">20.0</p>
+<p id="category">Peso Normal</p>
+</div>
+
+
+<script src="script.js"></script>    
+</body>
+</html>
