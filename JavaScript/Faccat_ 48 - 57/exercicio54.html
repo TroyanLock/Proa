@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="author" content="Vinicius Rodrigues">
+
+    <meta name="description" content="Exercicios de fixação - exibe uma mensagem baseada nos números escolhidos">
+
+    <meta name="keywords" content="mensagem condicional, comparação aninhada, JavaScript, Instituto Proa">
+
+
+    <title>exercicio54</title>
+
+</head>
+
+<body>
+
+    <!--Ler dois valores e imprimir uma das três mensagens a seguir:
+    ‘Números iguais’, caso os números sejam iguais
+    ‘Primeiro é maior’, caso o primeiro seja maior que o segundo;
+    ‘Segundo maior’, caso o segundo seja maior que o primeiro. -->
+
+    <script>
+
+        var v1 = parseInt(prompt("Digite o valor desejado: "));
+        var v2 = parseInt(prompt("Digite o valor desejado: "));
+
+
+        if(v1 > v2) {
+
+            alert("O primeiro é maior!");
+
+        } else if( v2 > v1) {
+
+            alert("O segundo é maior!");
+
+        } else {
+            alert("Os valores são iguais!");
+        }
+
+    </script>
+
+</body>
+
+</html>

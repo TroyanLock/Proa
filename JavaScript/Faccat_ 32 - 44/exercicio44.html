@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="author" content="Vinicius Rodrigues">
+
+    <meta name="description" content="Exercicios de fixação - Diz se é necessário comprar mais estoque">
+
+    <meta name="keywords" content="Controle de estoque, comprar ou não, JavaScript, Instituto Proa">
+
+
+    <title>exercicio44</title>
+
+</head>
+
+<body>
+
+    <!-- Faça um algoritmo para ler: quantidade atual em estoque, quantidade máxima em estoque e
+    quantidade mínima em estoque de um produto. Calcular e escrever a quantidade média ((quantidade
+    média = quantidade máxima + quantidade mínima)/2). Se a quantidade em estoque for maior ou igual
+    a quantidade média escrever a mensagem 'Não efetuar compra', senão escrever a mensagem 'Efetuar
+    compra'. -->
+
+    <script>
+        var estoque = parseFloat(prompt("Digite quantos produtos disponíveis em estoque: "));
+        var capacidadeMin = parseFloat(prompt("Digite quantos produtos são necessários: "));
+        var capacidadeMax = parseFloat(prompt("Digite a capacidade máxima do estoque: "));
+        var media = parseFloat((capacidadeMax + capacidadeMin)/2);
+        
+        
+                    
+        if (estoque < media) {
+            
+                alert("Efetuar a compra");
+            
+        } else {
+            
+            
+                alert("Não efetuar a compra");
+
+            
+        }
+
+    </script>
+
+</body>
+
+</html>

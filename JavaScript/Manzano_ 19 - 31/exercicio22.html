@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+    <meta name="author" content="Vinicius Rodrigues">
+
+    <meta name="description" content="Exercicios de fixação - Calcula ">
+
+    <meta name="keywords" content="Coversor,celsius, farenheit, celsius para farenheit, JavaScript, Instituto Proa">
+
+
+    <title>exercicio22</title>
+
+</head>
+
+<body>
+
+    <!-- Efetuar o cálculo da quantidade de litros de combustível gasta em uma viagem, utilizando um
+automóvel que faz 12 Km por litro. Para obter o cálculo, o usuário deve fornecer o tempo gasto
+(TEMPO) e a velocidade média (VELOCIDADE) durante a viagem. Desta forma, será possível obter a
+distância percorrida com a fórmula DISTANCIA = TEMPO * VELOCIDADE. Possuindo o valor da
+distância, basta calcular a quantidade de litros de combustível utilizada na viagem com a fórmula
+LITROS_USADOS = DISTANCIA / 12. Ao final, o programa deve apresentar os valores da velocidade
+média (VELOCIDADE), tempo gasto na viagem (TEMPO), a distancia percorrida (DISTANCIA) e a
+quantidade de litros (LITROS_USADOS) utilizada na viagem. -->
+
+    <script>
+        var tempo=parseFloat(prompt("Quanto tempo você levou de viagem(Em horas) ?: "));
+        var velocidade_media=parseFloat(prompt("Qual foi sua velocidade média?(em Km): "));
+        var distancia=(tempo*velocidade_media);
+        var litros_usados=(distancia/12);
+        
+        alert("A viagem durou: "+tempo+"h");
+        alert("A velocidade média foi de: "+velocidade_media+"Kms");
+        alert("A viagem foi de: "+distancia+"Kms");        
+        alert("Foram gastos: "+litros_usados+"L");
+    </script>
+
+</body>
+
+</html>

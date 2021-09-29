@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="author" content="Vinicius Rodrigues">
+
+    <meta name="description" content="Exercicios de fixação - Exibe o preço da compra de combustível">
+
+    <meta name="keywords" content="Gasolina, promoção condicional, JavaScript, Instituto Proa">
+
+
+    <title>exercicio56</title>
+
+</head>
+
+<body>
+
+    <!--Escreva um algoritmo que leia o número de litros vendidos e o tipo de combustível (codificado da
+    seguinte forma: A-álcool, G-gasolina), calcule e imprima o valor a ser pago pelo cliente sabendo-se
+    que o preço do litro da gasolina é R$ 3,30 e o preço do litro do álcool é R$ 2,90. -->
+
+    <script>
+
+        var tipo = (prompt("Qual é o tipo de combústivel escolhido: (A) para alcool ou (G) para Gasolina"));
+        var quantidade = parseFloat(prompt("Digite quantos litros deseja colocar: "));
+
+
+        if(tipo == 'G' || tipo == 'g') {
+
+            var precofinal = parseFloat(quantidade * 3.30);
+
+        } else if(tipo == 'A' || tipo == 'a') {
+
+            var precofinal = parseFloat(quantidade * 2.90);
+
+        } else {
+            alert("O tipo escolhido é inválido!");
+        }
+
+        alert("O total foi de: " + precofinal.toFixed(2));
+
+    </script>
+
+</body>
+
+</html>

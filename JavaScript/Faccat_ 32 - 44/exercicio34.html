@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="author" content="Vinicius Rodrigues">
+
+    <meta name="description" content="Exercicios de fixação - Diz o preço total gasto em maças com promoção">
+
+    <meta name="keywords" content="caixa, condicional, JavaScript, Instituto Proa">
+
+
+    <title>exercicio34</title>
+
+</head>
+
+<body>
+
+    <!-- As maçãs custam R$ 1,30 cada se forem compradas menos de uma dúzia, e R$ 1,00 se forem
+    compradas pelo menos 12. Escreva um programa que leia o número de maçãs compradas, calcule e
+    escreva o custo total da compra. -->
+
+    <script>
+        var macas = (prompt("Digite o número de maçãs compradas: "));
+
+
+        if(macas<12){
+            var preco = parseFloat(macas*1.30);
+        }
+        else{
+            var preco = (macas);
+        }
+
+            alert("O total foi de: " + preco + "R$");
+
+
+    </script>
+
+</body>
+
+</html>

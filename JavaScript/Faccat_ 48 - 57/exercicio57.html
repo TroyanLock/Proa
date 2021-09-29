@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="author" content="Vinicius Rodrigues">
+
+    <meta name="description" content="Exercicios de fixação - Cálculos parâmetrados por idades">
+
+    <meta name="keywords" content="homem e mulher, soma e produto condicional, JavaScript, Instituto Proa">
+
+
+    <title>exercicio57</title>
+
+</head>
+
+<body>
+
+    <!--Escreva um algoritmo que leia as idades de 2 homens e de 2 mulheres (considere que as idades
+    dos homens serão sempre diferentes entre si, bem como as das mulheres). Calcule e escreva a soma
+    das idades do homem mais velho com a mulher mais nova, e o produto das idades do homem mais
+    novo com a mulher mais velha. -->
+
+    <script>
+
+        var h1 = parseInt(prompt("Digite a idade do primeiro homem: "));
+        var h2 = parseInt(prompt("Digite a idade do segundo homem: "));
+        var m1 = parseInt(prompt("Digite a idade da primeira mulher: "));
+        var m2 = parseInt(prompt("Digite a idade da segunda mulher: "));
+
+        if (h1 > h2) {
+
+            var maisvelho = h1
+            var maisnovo = h2
+
+        } else {
+
+            var maisvelho = h2
+            var maisnovo = h1
+
+        }
+
+        if (m1 > m2) {
+
+            var maisvelha = m1
+            var maisnova = m2
+
+        } else {
+
+            var maisvelha = m2
+            var maisnova = m1
+
+        }
+
+            var soma = parseInt(maisvelho + maisnova)
+            var produto = parseInt(maisnovo * maisvelha)
+
+            
+        alert("A soma das idades do homem mais velho e da mulher mais nova foi: "
+        +"\n" +"    _" +soma
+       +"\nO produto das idades do homem mais novo e da mulher mais velha foi: " 
+       +"\n"  +"    _" +produto
+        );
+
+    </script>
+
+</body>
+
+</html>
