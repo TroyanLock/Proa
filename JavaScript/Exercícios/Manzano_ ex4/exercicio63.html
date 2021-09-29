@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="author" content="Vinicius Rodrigues">
+
+    <meta name="description" content="Exercicios de fixação - Verifica se o funcionário pode se aposentar.">
+
+    <meta name="keywords" content="Aposentadoria, verificação de requisitos, JavaScript, Instituto Proa">
+
+
+    <title>exercicio63</title>
+
+</head>
+
+<body>
+
+    <!--Uma empresa quer verificar se um empregado está qualificado para a aposentadoria ou não. Para
+        estar em condições, um dos seguintes requisitos deve ser satisfeito:
+        - Ter no mínimo 65 anos de idade.
+        - Ter trabalhado no mínimo 30 anos.
+        - Ter no mínimo 60 anos e ter trabalhado no mínimo 25 anos.
+        Com base nas informações acima, faça um algoritmo que leia: o número do empregado (código), o ano
+        de seu nascimento e o ano de seu ingresso na empresa. O programa deverá escrever a idade e o tempo
+        de trabalho do empregado e a mensagem 'Requerer aposentadoria' ou 'Não requerer'. -->
+
+    <script>
+
+        var codigo = prompt("Digite o código de empregado: ");
+
+        var nascimento = parseInt(prompt("Digite o ano de nascimento do consultado: "));
+        var idade = parseInt(2021 - nascimento);
+
+        var ingresso = parseInt(prompt("Digite o ano de ingresso"));
+        var tempo = parseInt(2021 - ingresso);
+
+
+        if((idade >= 65) || (tempo >= 30) || (idade >= 60 && tempo >= 30 )) {
+            alert("REQUERER APOSENTADORIA!");
+        } else {
+            alert("NÃO QUALIFICADO PARA REQUERER APOSENTADORIA!");
+        }
+
+
+                console.log(idade, tempo);
+
+
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="author" content="Vinicius Rodrigues">
+
+    <meta name="description" content="Exercicios de fixação - Apresenta os resultados das pôtencias de 3 até o 15º expoente">
+
+    <meta name="keywords" content="Pôtencia, potências de 3, estrutura while, JavaScript, Instituto Proa">
+
+
+    <title>exercicio81</title>
+
+</head>
+
+<body>
+
+    <!-- Apresentar os resultados das potências de 3, variando do expoente 0 até o expoente 15. Deve ser
+        considerado que qualquer número elevado a zero é 1, e elevado a 1 é ele próprio. Observe que
+        neste exercício não pode ser utilizado o operador de exponenciação do portuguol -->
+
+    <script>
+
+var expoente = 0;
+var cont = 1;
+
+        alert("Você verâ agora as potências de 3 até o 15º termo" + "\n                                  aperte ENTER para continuar")
+
+    while(expoente < 16) {
+
+        var result = (3**expoente)
+        console.log(result)
+        alert("3 ^ " + expoente + " = " + result) 
+
+        expoente++
+    }            
+
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="author" content="Vinicius Rodrigues">
+
+    <meta name="description" content="Exercicios de fixação - Verifica se o funcionário pode se aposentar.">
+
+    <meta name="keywords" content="diferença do maior para o menor, verificação de valores, JavaScript, Instituto Proa">
+
+
+    <title>exercicio65</title>
+
+</head>
+
+<body>
+
+    <!--Ler dois valores numéricos inteiros e apresentar o resultado da diferença do maior pelo menor valor. -->
+
+    <script>
+
+            var v1 = parseInt(prompt("Digite um valor desejado: "));
+            var v2 = parseInt(prompt("Digite outro valor desejado: "));
+
+            if(v1 > v2) {
+                var maior = v1
+                var menor = v2
+            } else {
+                var maior = v2
+                var menor = v1
+            }
+
+            var diferenca = parseInt(maior - menor);
+
+            alert("A diferenca do maior para o menor é de: " + diferenca);
+
+
+
+    </script>
+</body>
+
+</html>

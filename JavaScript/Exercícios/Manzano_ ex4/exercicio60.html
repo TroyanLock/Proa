@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="author" content="Vinicius Rodrigues">
+
+    <meta name="description" content="Exercicios de fixação - Determina se um conjunto é verdadeiro ou falso">
+
+    <meta name="keywords" content="Teste de mesa, JavaScript, Instituto Proa">
+
+
+    <title>exercicio60</title>
+
+</head>
+
+<body>
+
+    <!--Para A = V, B = V e C = F, qual o resultado da avaliação das seguintes expressões:
+        a) (A e B) ou (A xou B) : V
+        b) (A ou B) e (A e C) : F
+        c) A ou C e B xou A e não B: V -->
+
+    <script>
+
+        var a = true;
+        var b = true;
+        var c = false;
+
+        var Qa = (a && b) || (a || b);
+        var Qb = (a || b) && (a && c);
+        var Qc = (a || c && b || a && ! b);
+
+
+            console.log(Qa , Qb , Qc);
+
+
+    </script>
+
+</body>
+
+</html>

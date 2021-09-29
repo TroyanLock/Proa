@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="author" content="Vinicius Rodrigues">
+
+    <meta name="description" content="Exercicios de fixação - Ordena números digitados de forma cresente">
+
+    <meta name="keywords" content="Ordem cresente, leitura de três valores, JavaScript, Instituto Proa">
+
+
+    <title>exercicio70</title>
+
+</head>
+
+<body>
+
+    <!--Efetuar a leitura de três valores (variáveis A, B e C) e apresentá-los dispostos em ordem crescente -->
+
+    <script>
+
+            var a = parseFloat(prompt("Digite o primeiro valor: "));
+            var b = parseFloat(prompt("Digite o segundo valor: "));
+            var c = parseFloat(prompt("Digite o terceiro valor: "));
+
+
+            if(a > b && a > c) {
+                var maior = a;
+            } else if(b > a && b > c) {
+                var maior = b
+            } else{
+                var maior = c
+            }
+
+            if(a > b && a < c || a < b && a > c) {
+                var medio = a;
+            } else if(b > a && b < c || b < a && b > c) {
+                var medio = b
+            } else{
+                var medio = c
+            }
+
+            if(a < b && a < c) {
+                var menor = a;
+            } else if(b < a && b < c) {
+                var menor = b
+            } else{
+                var menor = c
+            }
+
+            alert("Em ordem crescente: " + menor + ", " + medio + ", " + maior);            
+
+    </script>
+</body>
+
+</html>

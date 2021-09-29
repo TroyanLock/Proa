@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="author" content="Vinicius Rodrigues">
+
+    <meta name="description" content="Exercicios de fixação - Lê 4 valores diferentes, e faz a soma e a multiplicação, de de dois valores por vez">
+
+    <meta name="keywords" content="soma distributiva, multiplicação distributiva, valores diferentes, JavaScript, Instituto Proa">
+
+
+    <title>exercicio25</title>
+
+</head>
+
+<body>
+
+    <!--Ler quatro números inteiros e apresentar o resultado da adição e multiplicação, baseando-se na
+    utilização do conceito da propriedade distributiva. Ou seja, se forem lidas as variáveis A, B, C, e D,
+    devem ser somadas e multiplicadas A com B, A com C e A com D. Depois B com C, B com D e por fim
+    C com D. Perceba que será necessário efetuar seis operações de adição e seis operações de
+    multiplicação e apresentar doze resultados de saída. -->
+
+    <script>
+        var a = parseInt(prompt("Digite o valor de A: "));
+        var b = parseInt(prompt("Digite o valor de B: "));
+        var c = parseInt(prompt("Digite o valor de C: "));
+        var d = parseInt(prompt("Digite o valor de D: "));
+
+        var soma1 = (a + b);
+        var soma2 = (a + c);
+        var soma3 = (a + d);
+        var soma4 = (b + c);
+        var soma5 = (b + d);
+        var soma6 = (c + d);
+
+        var multiplicacao1 = (a * b);
+        var multiplicacao2 = (a * c);
+        var multiplicacao3 = (a * d);
+        var multiplicacao4 = (b * c);
+        var multiplicacao5 = (b * d);
+        var multiplicacao6 = (c * d);
+
+
+
+
+
+        alert("A variável A somado com a varíavel B é igual a " + soma1
+        +"\n A variável A somado com a varíavel C é igual a " + soma2
+        +"\n A variável A somado com a varíavel D é igual a " + soma3
+        +"\n A variável B somado com a varíavel C é igual a " + soma4
+        +"\n A variável B somado com a varíavel D é igual a " + soma5
+        +"\n A variável C somado com a varíavel D é igual a " + soma6);
+
+        alert("A variável A multiplicada pela variável B é igual a " + multiplicacao1
+        +"\nA variável A multiplicada pela variável C é igual a " + multiplicacao2
+        +"\nA variável A multiplicada pela variável D é igual a " + multiplicacao3
+        +"\nA variável B multiplicada pela variável C é igual a " + multiplicacao4
+        +"\nA variável B multiplicada pela variável D é igual a " + multiplicacao5
+        +"\nA variável C multiplicada pela variável D é igual a " + multiplicacao6);
+    </script>
+
+</body>
+
+</html>
