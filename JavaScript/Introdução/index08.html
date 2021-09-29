@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="author" content="Vinicius Rodrigues">
+
+    <meta name="description" content="Introdução - multiplicação por 3">
+
+    <meta name="keywords" content="algoritmo, estrutura while, JavaScript, Instituto Proa">
+
+
+    <title>Introdução while</title>
+
+</head>
+
+<body>
+
+    <!--1. Criar uma variável para servir como contador com valor inicial 1;
+        2. Enquanto o valor do contador for menor ou igual a 5, processar os passos 3, 4 e 5;
+        3. Ler um valor para a variável X;
+        4. Efetuar a multiplicação do valor de X por 3, implicando o resultado em R;
+        5. Apresentar o valor calculado contido na variável R;
+        6. Acrescentar +1 a variável contador, definida no passo 1;
+        7. Quando o contador for maior que 5, encerrar o processamento do looping. -->
+
+    <script>
+
+            var contadora = 1;
+
+            while(contadora < 6) {
+                
+                var x = parseFloat(prompt("Digite qual valor deseja multiplicar por 3: "));
+                var r = x*3;
+                
+                alert("O resultado foi: " + r)
+
+                contadora++
+            }
+
+            alert("Fim do processo")
+
+
+
+
+
+    </script>
+</body>
+
+</html>
