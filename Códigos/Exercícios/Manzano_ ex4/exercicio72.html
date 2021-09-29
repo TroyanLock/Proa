@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="author" content="Vinicius Rodrigues">
+
+    <meta name="description" content="Exercicios de fixação - Determina o maior e o maior valor">
+
+    <meta name="keywords" content="maior e menor, leitura de cinco valores, JavaScript, Instituto Proa">
+
+
+    <title>exercicio72</title>
+
+</head>
+
+<body>
+
+    <!--Efetuar a leitura de cinco números inteiros e identificar o maior e o menor valores -->
+
+    <script>
+
+            var a = parseFloat(prompt("Digite o primeiro valor: "));
+            var b = parseFloat(prompt("Digite o segundo valor: "));
+            var c = parseFloat(prompt("Digite o terceiro valor: "));
+            var d = parseFloat(prompt("Digite o quarto valor: "));
+            var e = parseFloat(prompt("Digite o quinto valor: "));
+
+
+            if(a > b && a > c && a > d && a > e) {
+                var maior = a;
+            } else if(b > a && b > c && b > d && b > e) {
+                var maior = b;
+            } else if(c > a && c > b && c > d && c > e) {
+                var maior = c;
+            } else if(d > a && d > b && d > c && d > e) {
+                var maior = d;
+            } else {
+                var maior = e;
+            }
+
+
+            if(a < b && a < c && a < d && a < e) {
+                var menor = a;
+            } else if(b < a && b < c && b < d && b < e) {
+                var menor = b;
+            } else if(c < a && c < b && c < d && c < e) {
+                var menor = c;
+            } else if(d < a && d < b && d < c && d < e) {
+                var menor = d;
+            } else {
+                var menor = e;
+            }
+
+            alert("O maior foi " + maior + " e o menor foi " + menor);            
+
+    </script>
+</body>
+
+</html>

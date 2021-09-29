@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="author" content="Vinicius Rodrigues">
+
+    <meta name="description" content="Exercicios de fixação - Calcula o preço de um carrinho de compras">
+
+    <meta name="keywords" content="preço fruteira, promoção condicional, JavaScript, Instituto Proa">
+
+
+    <title>exercicio58</title>
+
+</head>
+
+<body>
+
+    <!--Se o cliente comprar mais de 8 Kg em frutas ou o valor total da compra ultrapassar R$ 25,00, receberá
+ainda um desconto de 10% sobre este total. Escreva um algoritmo para ler a quantidade (em Kg) de
+morangos e a quantidade (em Kg) de maças adquiridas e escreva o valor a ser pago pelo cliente. -->
+
+    <script>
+
+        var macas = parseFloat(prompt("Digite a quantidade de maçãs que o cliente está levando: "));
+        var morangos = parseFloat(prompt("Digite a quantidade de morango que o cliente está levando: "));
+        var pesoFrutas = macas + morangos;
+
+        if(morangos > 5) {
+            var precoMorangos = 2.20;
+        } else {
+            var precoMorangos = 2.50
+        }
+
+
+        if(macas > 5) {
+            var precoMacas = 1.50
+        } else {
+            var precoMacas = 1.80
+        }
+
+        var precoTotal = parseFloat((precoMacas * macas) + (precoMorangos * morangos));
+            precoFinal = parseFloat(precoTotal + (precoTotal*0.1))
+        
+        if(pesoFrutas > 8 || precoTotal > 25) {
+
+        } else {
+            precoFinal = precoTotal
+        }
+
+                        console.log("Preços: " + precoMacas + ", " + precoMorangos)
+                        console.log("Totais: " + precoTotal + ", " + precoFinal)
+
+
+
+        alert("O Valor á ser pago pelo cliente é de " + precoFinal.toFixed(2) + "R$ ");
+
+    </script>
+
+</body>
+
+</html>

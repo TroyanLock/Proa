@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="author" content="Vinicius Rodrigues">
+
+    <meta name="description" content="Exercicios de fixação - Cálcula o salário reajustado">
+
+    <meta name="keywords" content="Reajuste salarial, porcentagem indeterminada, JavaScript, Instituto Proa">
+
+
+    <title>exercicio46</title>
+
+</head>
+
+<body>
+
+    <!-- Ler o valor correspondente ao salário mensal (variável SM) de um trabalhador e também o valor do
+percentual de reajuste (variável PR) a ser atribuído. Apresentar o valor do novo salário (variável NS). -->
+
+    <script>
+        var sm = parseFloat(prompt("Digite o valor do seu salário: "));
+        var pr = parseFloat(prompt("Digite o valor do percentual de reajuste: "));
+
+
+        var ns = parseFloat((sm*(pr/100))+sm);
+
+
+        alert("Seu salário foi para: " + ns + "R$");
+        
+
+            
+
+    </script>
+
+</body>
+
+</html>
