@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <meta name="author" content="Vinicius Rodrigues">
+
+    <meta name="description" content="Exercicios de fixação - Calcula o salário final de vendedor">
+
+    <meta name="keywords" content="cálculo de salário final, JavaScript, Instituto Proa">
+
+
+    <title>exercicio16</title>
+
+</head>
+
+<body>
+
+    <!-- Uma revendedora de carros usados paga a seus funcionários vendedores um salário fixo por mês,
+    mais uma comissão também fixa para cada carro vendido e mais 5% do valor das vendas por ele
+    efetuadas. Escrever um algoritmo que leia o número de carros por ele vendidos, o valor total de suas
+    vendas, o salário fixo e o valor que ele recebe por carro vendido. Calcule e escreva o salário final do
+    vendedor. -->
+
+    <script>
+
+
+            var salario = parseFloat(prompt("Digite o valor do seu salário fixo: "));
+            var comissaoNum = parseFloat(prompt("Digite o valor da comissão por carro vendido: "));
+            var comissaoVal = parseFloat(prompt("Digite quantos carros foram vendidos: "));
+            var totVendas = parseFloat(prompt("Digite o valor total de todos os carros vendidos"));
+
+            var salariofinal = parseFloat( salario + (comissaoNum*comissaoVal) + (totVendas*5/100) ).toFixed(2);
+
+            
+
+
+        alert("O seu salário ficou em "+ salariofinal + "R$");
+
+    </script>
+
+</body>
+
+</html>
